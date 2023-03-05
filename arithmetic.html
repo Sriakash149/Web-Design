@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body
+      {
+        font-family: system-ui;
+        background-size: 1500px;
+        background-image: url("wallpaperflare.com_wallpaper (4).jpg");
+        margin-top: 150px;
+        position: relative;
+        text-align: center;
+      }
+      div
+      {
+        position: relative;
+        border-style: solid;
+        margin-left: 400px;
+        margin-right: 400px;
+        padding: 70px;
+        border-color:maroon;
+        color: white;
+        border-radius: 10px;
+      }
+      .a1
+      {
+        border-color: maroon;
+        position: relative;
+        margin-left: 50px;
+        padding: 7px;
+        border-radius: 10px;
+      }
+      .a2
+      {
+        border-color: white;
+        border-width: 2px;
+        letter-spacing:0.5px;
+        top: 20px;
+        position: relative;
+        /* border: none; */
+        background-color: darkslateblue;
+        color: white;
+        padding:10px ;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+<body>
+  <div>
+  <form method="post" action="arithmetic.php">
+    <big>Number 1:</big> <input class="a1" type="number" name="num1"><br><br>
+    <big>Number 2:</big> <input class="a1" type="number" name="num2"><br><br><br>
+    <input class="a2" type="submit" name="add" value="Addition">&nbsp;&nbsp;
+    <input class="a2" type="submit" name="sub" value="Subtraction">&nbsp;&nbsp;
+    <input class="a2" type="submit" name="mul" value="Multiplication">&nbsp;&nbsp;
+    <input class="a2" type="submit" name="div" value="Division">&nbsp;&nbsp;
+  </form>
+  </div>
+</body>
+</html>
